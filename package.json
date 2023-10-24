@@ -1,10 +1,11 @@
 {
   "name": "@limlim9999/web-view-proxy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "WebView Fabric Native Component with proxy supported",
   "react-native": "js/index",
   "source": "js/index",
   "files": [
+    "index.js",
     "js",
     "android/src",
     "android/build.gradle",
