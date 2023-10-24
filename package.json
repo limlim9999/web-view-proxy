@@ -1,5 +1,5 @@
 {
-  "name": "web-view-proxy",
+  "name": "@limlim9999/web-view-proxy",
   "version": "0.0.1",
   "description": "WebView Fabric Native Component with proxy supported",
   "react-native": "js/index",
@@ -41,6 +41,12 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "postinstall": "patch-package"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.72.5",
+    "patch-package": "^8.0.0"
   }
 }
