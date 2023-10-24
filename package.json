@@ -1,6 +1,6 @@
 {
   "name": "@limlim9999/web-view-proxy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "WebView Fabric Native Component with proxy supported",
   "react-native": "js/index",
   "source": "js/index",
@@ -42,7 +42,7 @@
     "type": "components",
     "jsSrcsDir": "js"
   },
-  "main": "index.js",
+  "main": "../index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
