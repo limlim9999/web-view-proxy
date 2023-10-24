@@ -82,7 +82,6 @@ package-lock.json
 android/gradle
 android/gradlew
 android/gradlew.bat
-lib/
 .classpath
 .project
 .settings/

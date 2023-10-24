@@ -1,11 +1,11 @@
 {
   "name": "@limlim9999/web-view-proxy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "WebView Fabric Native Component with proxy supported",
   "react-native": "js/index",
   "source": "js/index",
   "files": [
-    "index.js",
+    "lib",
     "js",
     "android/src",
     "android/build.gradle",
@@ -34,16 +34,16 @@
   },
   "homepage": "https://github.com/limlim9999/web-view-proxy#readme",
   "peerDependencies": {
+    "patch-package": "^8.0.0",
     "react": "^18.2.0",
-    "react-native": "0.72.5",
-    "patch-package": "^8.0.0"
+    "react-native": "0.72.5"
   },
   "codegenConfig": {
     "name": "WebViewProxySpecs",
     "type": "components",
     "jsSrcsDir": "js"
   },
-  "main": "../index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
