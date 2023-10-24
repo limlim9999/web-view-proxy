@@ -6,7 +6,9 @@
   "source": "js/index",
   "files": [
     "js",
-    "android",
+    "android/src",
+    "android/build.gradle",
+    "android/gradle.properties",
     "ios",
     "web-view-proxy.podspec",
     "!android/build",
