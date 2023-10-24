@@ -1,0 +1,46 @@
+{
+  "name": "web-view-proxy",
+  "version": "0.0.1",
+  "description": "WebView Fabric Native Component with proxy supported",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "web-view-proxy.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limlim9999/web-view-proxy.git"
+  },
+  "author": "Kok limlim9999@hotmail.com (https://github.com/limlim9999)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limlim9999/web-view-proxy/issues"
+  },
+  "homepage": "https://github.com/limlim9999/web-view-proxy#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "0.72.5"
+  },
+  "codegenConfig": {
+    "name": "WebViewProxySpecs",
+    "type": "components",
+    "jsSrcsDir": "js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
